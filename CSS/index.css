@@ -55,3 +55,72 @@ a:hover {
     background-color: #5f27cd;
 }
 
+.imagem {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.texto {
+    display: inline-block;
+    padding: 36px 40px;
+    box-shadow: 10px 10px #000;
+    background-color: #3a4240;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+}
+
+h3 {
+    display: inline-flex;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    text-shadow: 4px 4px 0px black;
+}
+
+
+.botao1 {
+    display: inline-block;
+    position: absolute;
+    right: 280px;
+    top: 160px;
+    background-color: #9151e0;
+    padding: 18px 20px;
+    box-shadow: 5px 5px black;
+    margin-right: 0px;
+    transition: transform 100ms linear;
+}
+
+.botao1::before {
+    content: none;
+}
+
+.botao1:hover {
+    transform: scale(1.09);
+    color: #219653;
+    background-color: #5f27cd;
+}
+
+.botao2 {
+    display: inline-block;
+    position: absolute;
+    right: 300px;
+    top: 260px;
+    background-color: #9151e0;
+    padding: 18px 20px;
+    box-shadow: 5px 5px black;
+    margin-right: 0px;
+    transition: transform 100ms linear;
+}
+
+.botao2::before {
+    content: none;
+}
+
+.botao2:hover {
+    transform: scale(1.09);
+    color: #219653;
+    background-color: #5f27cd;
+}
+
